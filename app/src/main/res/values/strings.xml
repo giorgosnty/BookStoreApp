@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BookStoreApp</string>
+    <string name="insert">New Book</string>
+    <string name="overview">Book Info</string>
+    <string name="hint_book_name">Title</string>
+    <string name="hint_book_price">Price</string>
+    <string name="hint_book_quantity">Quantity</string>
+    <string name="supplier_info">Supplier Info</string>
+    <string name="hint_suuplier_name">Full Name</string>
+    <string name="hint_suuplier_number">Telephone</string>
+    <string name="insert_activity_new_book">Add A Book</string>
+    <string name="empty_view_title_text">The BookStore has no books right now</string>
+    <string name="empty_view_subtitle_text">Add new books</string>
+    <string name="sale">SALE</string>
+    <string name="action_delete_all_entries">Delete All</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="details_activity">Book Information</string>
+    <string name="contact">Contact Supplier</string>
+    <string name="insert_failed">Error!The insertion failed!!</string>
+    <string name="insert_succeeded">Successful insertion!</string>
+    <string name="update_failed">The update failed!</string>
+    <string name="update_succeeded">The update was sucessful</string>
+    <string name="unsaved_changes">You have unsaved changes. Are you sure you want to quit?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_failed">Error!Delete Failed!</string>
+    <string name="delete_sucess">The Delete succeeded!</string>
+    <string name="delete_dialog_msg">Are you sure you want to delete this pet?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add Product</string>
+    <string name="delete_everything">Are you sure you want to delete everything?</string>
+    <string name="increase">Increase</string>
+    <string name="decrease">Decrease</string>
+</resources>

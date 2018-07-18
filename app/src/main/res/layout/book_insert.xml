@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            style="@style/insert_textview"
+            android:text="@string/overview"
+            android:layout_margin="5dp"
+            android:textColor="@color/SandyBrown"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_book_name"
+                android:hint="@string/hint_book_name"
+                android:inputType="textAutoComplete"
+                style="@style/editBook" />
+
+            <!-- Breed field -->
+            <EditText
+                android:id="@+id/edit_book_price"
+                android:hint="@string/hint_book_price"
+                android:inputType="numberDecimal"
+                style="@style/editBook" />
+
+            <EditText
+                android:id="@+id/book_quantity"
+                style="@style/editBook"
+                android:hint="@string/hint_book_quantity"
+                android:inputType="numberDecimal"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+            <TextView
+                style="@style/insert_textview"
+                android:text="@string/supplier_info"
+                android:layout_margin="5dp"
+                android:textColor="@color/SandyBrown"/>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:paddingLeft="4dp"
+                android:orientation="vertical">
+
+                <!-- Name field -->
+                <EditText
+                    android:id="@+id/edit_supplier_name"
+                    android:hint="@string/hint_suuplier_name"
+                    android:inputType="text"
+                    style="@style/editBook" />
+
+                <!-- Breed field -->
+                <EditText
+                    android:id="@+id/edit_supplier_number"
+                    android:hint="@string/hint_suuplier_number"
+                    android:inputType="number"
+                    style="@style/editBook" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        
+
+
+</LinearLayout>
